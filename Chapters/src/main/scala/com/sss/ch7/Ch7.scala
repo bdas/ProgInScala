@@ -14,7 +14,6 @@ object Ch7 extends App {
 
   println("value of x:= " + x)
 
-
   //Adv of val is that it better supports equational reasoning
   println(if (x == 0) "zero" else "Non zero")
 
@@ -33,9 +32,7 @@ object Ch7 extends App {
     b
   }
 
-
   def gcdFun(x: Long, y: Long): Long = if (y == 0) x else gcdFun(y, x % y)
-
 
   println("gcd of 3,6 -> " + gcd(3, 6))
   println("gcdFun of 2,3 -> " + gcdFun(2, 3))
