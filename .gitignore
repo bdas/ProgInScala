@@ -1,3 +1,7 @@
+# use glob syntax.
+syntax: glob
+target
+
 # Intellij files
 .idea
 *.iml
