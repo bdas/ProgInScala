@@ -4,14 +4,6 @@ import io.Source
 import java.io.File
 import util.control.Breaks
 
-/**
- * Created by IntelliJ IDEA.
- * User: Das
- * Date: 30/01/2012
- * Time: 23:19
- * To change this template use File | Settings | File Templates.
- */
-
 object Ch7 extends App {
 
   // control structure .. SCALA Control Structures can return values
